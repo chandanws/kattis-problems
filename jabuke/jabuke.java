@@ -24,6 +24,8 @@ public class jabuke {
     return Math.abs(xa * (yb - yc) + xb * (yc - ya) + xc * (ya - yb)) / 2.0;
   }
   
+  // The idea on how to check whether or not a specific point is in a triangle are coming from this site
+  // http://www.geeksforgeeks.org/check-whether-a-given-point-lies-inside-a-triangle-or-not/
   public static boolean isPointInsideTriangle(ArrayList<String> landPts, String treePts) {
     
     // Calculate area of triangle ABC
