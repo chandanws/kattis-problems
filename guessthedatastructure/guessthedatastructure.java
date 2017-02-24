@@ -1,7 +1,7 @@
 // Problem link: https://open.kattis.com/problems/guessthedatastructure
-// Live example link: 
-// CPU running time: 1.14 s
-// Status: Not accepted
+// Live example link: https://repl.it/FwPt
+// CPU running time: 1.12 s
+// Status: Accepted
 
 import java.util.*;
 import java.util.Scanner;
@@ -57,7 +57,7 @@ public class guessthedatastructure {
       }
     }
     
-    return qu.isEmpty();
+    return true;
   }
   
   public static boolean checkForStack(ArrayList<String> listOfOpers) {
@@ -79,7 +79,7 @@ public class guessthedatastructure {
       }
     }
     
-    return st.isEmpty();
+    return true;
   }
   
   public static boolean checkForPQueue(ArrayList<String> listOfOpers) {
