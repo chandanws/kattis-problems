@@ -53,6 +53,7 @@ public class whatdoesthefoxsay {
       whatDoesTheFoxSay(scanner);
       numberOfTests--;
     }
+    
     scanner.close();
   }
 }

@@ -1,5 +1,5 @@
 // Problem link: https://open.kattis.com/problems/averagespeed
-// Live example link: https://repl.it/KHth
+// Live example link: https://repl.it/KHth/1
 // CPU running time: 0.13 s
 // Status: Accepted
 
@@ -61,5 +61,7 @@ public class averagespeed {
     while(scanner.hasNextLine()) {
       computeDistance(scanner.nextLine().split(" "));
     }
+
+    scanner.close();
   }
 }

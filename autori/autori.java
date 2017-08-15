@@ -1,11 +1,12 @@
 // Problem link: https://open.kattis.com/problems/autori
-// Live example link: https://repl.it/KHp8
+// Live example link: https://repl.it/KHp8/1
 // CPU running time: 0.12 s
 // Status: Accepted
 
 import java.util.*;
 
 public class autori {
+
   public static void main(String [] args) {
     Scanner scanner = new Scanner(System.in);
     String name = scanner.nextLine();
@@ -17,5 +18,7 @@ public class autori {
     }
     
     System.out.println(nameInShort);
+
+    scanner.close();
   }
 }

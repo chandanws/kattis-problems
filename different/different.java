@@ -1,11 +1,12 @@
 // Problem link: https://open.kattis.com/problems/different
-// Live example link: https://repl.it/KJxu
+// Live example link: https://repl.it/KJxu/1
 // CPU running time: 0.11 s
 // Status: Accepted
 
 import java.util.*;
 
 public class different {
+
   public static void main(String [] args) {
     Scanner scanner = new Scanner(System.in);
     String nextLine = "";
@@ -20,5 +21,7 @@ public class different {
         )
       );
     }
+
+    scanner.close();
   }
 }

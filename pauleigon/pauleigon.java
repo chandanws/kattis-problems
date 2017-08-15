@@ -1,5 +1,5 @@
 // Problem link: https://open.kattis.com/problems/pauleigon
-// Live example link: https://repl.it/GVuI
+// Live example link: https://repl.it/GVuI/1
 // CPU running time: 0.13 s
 // Status: Accepted
 
@@ -13,5 +13,7 @@ public class pauleigon {
     String [] l = scanner.nextLine().split(" ");
     long totalRounds = Long.parseLong(l[1]) + Long.parseLong(l[2]) + 1;
     System.out.print(((int) Math.ceil((double) totalRounds / Long.parseLong(l[0]))) % 2 == 0 ? "opponent" : "paul");
+
+    scanner.close();
   }
 }
