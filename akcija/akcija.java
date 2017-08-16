@@ -1,5 +1,5 @@
 // Problem link: https://open.kattis.com/problems/akcija
-// Live example link: https://repl.it/KLjz
+// Live example link: https://repl.it/KLjz/1
 // CPU running time: 0.83 s
 // Status: Accepted
 
@@ -48,5 +48,7 @@ public class akcija {
     
     // System.out.println(Arrays.deepToString(groupsOfBooks.toArray()));
     System.out.println(requiredMinimalPrice);
+    
+    scanner.close();
   }
 }
